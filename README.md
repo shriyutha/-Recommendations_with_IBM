@@ -1,4 +1,4 @@
-# -Recommendations_with_IBM
+# Recommendations_with_IBM
 
 ## Table of Contents:
 
@@ -27,3 +27,14 @@ Following approaches were taken:
 * User-User Based Collaborative Filtering: building recommendation based on similar user-items interaction.
 * Matrix Factorization: using machine learning approach to building recommendations.
 * Discuss the outcome of the analysis and make recommendations
+
+## Libraries:
+
+* pandas
+* numpy
+* matplotlib.pyplot
+* pickle
+
+## Acknowledgements:
+
+I wish to thank IBM Watson Studio platform for dataset, and thank Udacity for advice and review.
