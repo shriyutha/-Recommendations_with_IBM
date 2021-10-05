@@ -17452,16 +17452,16 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&#39;recommender systems: approaches &amp; algorithms&#39;,
+<pre>[&#39;data tidying in data science experience&#39;,
  &#39;airbnb data for analytics: mallorca reviews&#39;,
- &#39;analyze facebook data using ibm watson and watson studio&#39;,
- &#39;a tensorflow regression model to predict house values&#39;,
- &#39;520    using notebooks with pixiedust for fast, flexi...\nName: title, dtype: object&#39;,
+ &#39;recommender systems: approaches &amp; algorithms&#39;,
  &#39;1448    i ranked every intro to data science course on...\nName: title, dtype: object&#39;,
+ &#39;520    using notebooks with pixiedust for fast, flexi...\nName: title, dtype: object&#39;,
  &#39;airbnb data for analytics: vancouver listings&#39;,
  &#39;analyze accident reports on amazon emr spark&#39;,
  &#39;analyze energy consumption in buildings&#39;,
- &#39;data tidying in data science experience&#39;]</pre>
+ &#39;a tensorflow regression model to predict house values&#39;,
+ &#39;analyze facebook data using ibm watson and watson studio&#39;]</pre>
 </div>
 
 </div>
@@ -17649,7 +17649,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 [&#39;1024.0&#39;, &#39;1085.0&#39;, &#39;109.0&#39;, &#39;1150.0&#39;, &#39;1151.0&#39;, &#39;1152.0&#39;, &#39;1153.0&#39;, &#39;1154.0&#39;, &#39;1157.0&#39;, &#39;1160.0&#39;]
 
 The top 10 recommendations for user 20 are the following article names:
-[&#39;tensorflow quick tips&#39;, &#39;airbnb data for analytics: venice calendar&#39;, &#39;airbnb data for analytics: venice listings&#39;, &#39;airbnb data for analytics: venice reviews&#39;, &#39;airbnb data for analytics: washington d.c. listings&#39;, &#39;airbnb data for analytics: vienna calendar&#39;, &#39;airbnb data for analytics: chicago listings&#39;, &#39;analyze accident reports on amazon emr spark&#39;, &#39;using deep learning to reconstruct high-resolution audio&#39;, &#39;airbnb data for analytics: vienna listings&#39;]
+[&#39;tensorflow quick tips&#39;, &#39;airbnb data for analytics: venice calendar&#39;, &#39;airbnb data for analytics: vienna calendar&#39;, &#39;airbnb data for analytics: venice reviews&#39;, &#39;airbnb data for analytics: chicago listings&#39;, &#39;airbnb data for analytics: washington d.c. listings&#39;, &#39;airbnb data for analytics: venice listings&#39;, &#39;using deep learning to reconstruct high-resolution audio&#39;, &#39;analyze accident reports on amazon emr spark&#39;, &#39;airbnb data for analytics: vienna listings&#39;]
 </pre>
 </div>
 </div>
@@ -17897,8 +17897,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Provide your response here.</strong></p>
-<p>Since we do not have proper data of users, we can not apply collaborative filtering here. So rank based would be most appropriate to make recommendations.</p>
-
+<h4 id="Since-a-new-user-have-not-interacted-with-any-articles-yet,-we-could-not-determine-which-users-are-the-most-similar.-Because-of-that,-the-first-recommendation-for-a-new-user-would-be-get_top_articles-and-get_top_articles_ids.-Based-on-interactions-with-the-top-articles,-the-new-user-would-gain-some-interactions,-and-we-would-be-able-to-determine-which-users-are-the-most-similar">Since a new user have not interacted with any articles yet, we could not determine which users are the most similar. Because of that, the first recommendation for a new user would be get_top_articles and get_top_articles_ids. Based on interactions with the top articles, the new user would gain some interactions, and we would be able to determine which users are the most similar<a class="anchor-link" href="#Since-a-new-user-have-not-interacted-with-any-articles-yet,-we-could-not-determine-which-users-are-the-most-similar.-Because-of-that,-the-first-recommendation-for-a-new-user-would-be-get_top_articles-and-get_top_articles_ids.-Based-on-interactions-with-the-top-articles,-the-new-user-would-gain-some-interactions,-and-we-would-be-able-to-determine-which-users-are-the-most-similar">&#182;</a></h4><h4 id="Since-we-don&#8217;t-have-any-historical-data-of-the-user,-it-would-not-be-helpful-to-apply-collaborative-filtering.-To-this-end,-Rank-based-would-be-most-appropriate-to-apply.-In-that-case,-we-can-recommend-most-popular-items-in-the-dataset,-that-we-constructed-in-the-Part-II-of-the-notebook-as-get_top_articles().">Since we don&#8217;t have any historical data of the user, it would not be helpful to apply collaborative filtering. To this end, Rank based would be most appropriate to apply. In that case, we can recommend most popular items in the dataset, that we constructed in the Part II of the notebook as get_top_articles().<a class="anchor-link" href="#Since-we-don&#8217;t-have-any-historical-data-of-the-user,-it-would-not-be-helpful-to-apply-collaborative-filtering.-To-this-end,-Rank-based-would-be-most-appropriate-to-apply.-In-that-case,-we-can-recommend-most-popular-items-in-the-dataset,-that-we-constructed-in-the-Part-II-of-the-notebook-as-get_top_articles().">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -18357,8 +18356,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Provide your response here.</strong></p>
-<p>We hcan perform SVD, because we have no missing values. There is no ratings here, but a boolean matrix of whether the user has interacted with the item or not.</p>
-
+<h4 id="We-hcan-perform-SVD,-because-we-have-no-missing-values.-There-is-no-ratings-here,-but-a-boolean-matrix-of-whether-the-user-has-interacted-with-the-item-or-not.">We hcan perform SVD, because we have no missing values. There is no ratings here, but a boolean matrix of whether the user has interacted with the item or not.<a class="anchor-link" href="#We-hcan-perform-SVD,-because-we-have-no-missing-values.-There-is-no-ratings-here,-but-a-boolean-matrix-of-whether-the-user-has-interacted-with-the-item-or-not.">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -18965,7 +18963,7 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 
 
 <div class="output_text output_subarea ">
-<pre>&lt;matplotlib.figure.Figure at 0x7fb2ba3fafd0&gt;</pre>
+<pre>&lt;matplotlib.figure.Figure at 0x7f3f97937c50&gt;</pre>
 </div>
 
 </div>
